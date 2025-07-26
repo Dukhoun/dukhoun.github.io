@@ -247,6 +247,17 @@ section {
   line-height: 1.6;
 }
 
+/* Label indicating that a product is coming soon
+ * This label is placed within the product heading to subtly
+ * communicate that the product is not yet available. It uses
+ * the secondary color and a smaller font size to differentiate
+ * it from the main product name. */
+.coming-soon {
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+  margin-right: 5px;
+}
+
 /* ---------- Contact Section ---------- */
 
 #contact .contact-wrapper {
