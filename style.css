@@ -258,6 +258,31 @@ section {
   margin-right: 5px;
 }
 
+/* Style adjustments for available product cards
+ * المنتجات المتاحة (مثل دهن العود) تُبرز عن طريق تغيير لون الحدود
+ * ولون العناصر داخل البطاقة لتتناسب مع اللون الأساسي الذهبي. يتم أيضاً
+ * تحديث زر الطلب ليتماشى مع هذا النمط. */
+.product-card.available {
+  border-color: var(--primary-color);
+}
+
+.product-card.available .product-content .icon,
+.product-card.available .product-content h3,
+.product-card.available .product-content p {
+  color: var(--primary-color);
+}
+
+.product-card.available .btn {
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.product-card.available .btn:hover {
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+}
+
 /* ---------- Contact Section ---------- */
 
 #contact .contact-wrapper {
