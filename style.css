@@ -122,6 +122,15 @@ nav a:hover {
   color: var(--muted-color);
 }
 
+/* Logo in hero section */
+.hero-logo {
+  max-width: 200px;
+  width: 40%;
+  height: auto;
+  margin: 0 auto 20px;
+  display: block;
+}
+
 .btn {
   display: inline-block;
   padding: 12px 32px;
