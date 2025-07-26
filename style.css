@@ -355,6 +355,15 @@ footer {
     font-size: 1rem;
   }
 
+  /* On small screens the header expands vertically when the menu items stack.
+   * Add extra top padding to the hero section so that the logo and heading
+   * remain visible below the header and navigation menu. Without this
+   * padding the hero logo may be covered by the open menu on mobile as
+   * reported by the user. */
+  #hero {
+    padding-top: 180px;
+  }
+
   .products-grid {
     gap: 20px;
   }
