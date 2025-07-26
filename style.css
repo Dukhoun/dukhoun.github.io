@@ -273,14 +273,30 @@ section {
 }
 
 .product-card.available .btn {
-  background-color: transparent;
+  /* اجعل زر الطلب للمنتج المتاح باللون الذهبي الكامل لإبرازه */
+  background-color: var(--primary-color);
   border: 1px solid var(--primary-color);
-  color: var(--primary-color);
+  color: var(--bg-color);
 }
 
 .product-card.available .btn:hover {
   background-color: var(--primary-color);
   color: var(--bg-color);
+}
+
+/*
+ * Style buttons for products that are not yet available (coming soon).
+ * نجعل أزرار الطلب للمنتجات القادمة بلون رمادي باهت لتقليل إبرازها مقارنة بالمنتج المتاح.
+ */
+.product-card:not(.available) .btn {
+  background-color: #2b2b2b;
+  border: 1px solid #3a3a3a;
+  color: var(--muted-color);
+}
+
+.product-card:not(.available) .btn:hover {
+  background-color: #3a3a3a;
+  color: var(--text-color);
 }
 
 /* ---------- Contact Section ---------- */
