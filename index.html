@@ -58,63 +58,50 @@
       <h2>منتجاتنا</h2>
       <div class="products-grid">
         <!-- Dahn Al Oud product -->
-        <!-- أضف فئة available لتمييز المنتج المتاح بلون خاص -->
         <div class="product-card available">
           <div class="product-image" style="background-image: url('assets/dahn_oud.jpg');"></div>
           <div class="product-content">
             <div class="icon"><ion-icon name="flask-outline"></ion-icon></div>
             <h3>دهن العود</h3>
             <p>دهن العود تولة مميزة تعكس جوهر العود المركز بأبهى صورة.</p>
-            <button type="button" class="btn small order-now-btn">اطلب الآن</button>
+            <a href="https://dukhoun-server-9.onrender.com/success" class="btn small">اطلب الآن</a>
           </div>
         </div>
-        <!-- Oud product -->
+
+        <!-- باقي المنتجات بدون تعديل -->
         <div class="product-card">
-          <!-- استخدم صورة لقطع خشب العود الطبيعي لتعبر عن أصالة وجودة العود -->
           <div class="product-image" style="background-image: url('assets/oud_wood.png');"></div>
           <div class="product-content">
             <div class="icon"><ion-icon name="leaf-outline"></ion-icon></div>
             <h3>عود <span class="coming-soon">قريباً</span></h3>
             <p>قطع من العود الطبيعي المختار بعناية ليمنحك عبقاً ثرياً ودافئاً يدوم طويلاً.</p>
-            <!-- تحويل زر الطلب إلى زر button لتجنب إعادة تحميل الصفحة -->
             <button type="button" class="btn small order-now-btn">اطلب الآن</button>
           </div>
         </div>
-        <!-- Incense product -->
         <div class="product-card">
-          <!-- استخدم صورة جديدة لمبخرة ذهبية مع بخور ودخان لتركيز التركيز على المبخرة والبخار -->
           <div class="product-image" style="background-image: url('assets/bakhoor_new.jpg');"></div>
           <div class="product-content">
             <div class="icon"><ion-icon name="flame-outline"></ion-icon></div>
             <h3>بخور <span class="coming-soon">قريباً</span></h3>
             <p>بخور فاخر ينبعث منه دخان عطري ناعم يملأ الأجواء بالسكينة والصفاء.</p>
-            <!-- تحويل زر الطلب إلى زر button لتجنب إعادة تحميل الصفحة -->
             <button type="button" class="btn small order-now-btn">اطلب الآن</button>
           </div>
         </div>
-        <!-- Musk product -->
         <div class="product-card">
-          <!-- استخدم صورة جديدة لتولة مسك تختلف عن صورة دهن العود -->
           <div class="product-image" style="background-image: url('assets/musk_new.png');"></div>
           <div class="product-content">
             <div class="icon"><ion-icon name="droplet-outline"></ion-icon></div>
             <h3>مسك <span class="coming-soon">قريباً</span></h3>
             <p>مسك أصيل بنفحات عميقة ورقيقة يضفي لمسة من الرقي على حضورك.</p>
-            <!-- تحويل زر الطلب إلى زر button لتجنب إعادة تحميل الصفحة -->
             <button type="button" class="btn small order-now-btn">اطلب الآن</button>
           </div>
         </div>
-
-        <!-- Candles product -->
         <div class="product-card">
-          <!-- استخدم صورة شمعة في كأس زجاجي مع الظلال لإضفاء إحساس طبيعي ولطيف -->
           <div class="product-image" style="background-image: url('assets/candle_new.jpg');"></div>
           <div class="product-content">
-            <!-- Use filled flame icon to represent candles -->
             <div class="icon"><ion-icon name="flame"></ion-icon></div>
             <h3>شمع <span class="coming-soon">قريباً</span></h3>
             <p>شموع معطرة فاخرة تضفي دفئاً وأجواء مميزة على مناسباتك وحياتك اليومية.</p>
-            <!-- تحويل زر الطلب إلى زر button لتجنب إعادة تحميل الصفحة -->
             <button type="button" class="btn small order-now-btn">اطلب الآن</button>
           </div>
         </div>
@@ -128,7 +115,6 @@
       <h2>اتصل بنا</h2>
       <div class="contact-wrapper">
         <div class="contact-info">
-          <!-- Updated contact details -->
           <p><strong>العنوان:</strong> عمان _الاردن</p>
           <p><strong>الهاتف:</strong> 0787240405</p>
         </div>
@@ -159,10 +145,6 @@
   </footer>
 
   <!-- Order message modal -->
-  <!--
-    يظهر هذا الصندوق عند النقر على زر "اطلب الآن" في بطاقات المنتجات. يعرض رسالة
-    تفيد بأن المنتجات ستتوفر قريباً، مع تصميم يتماشى مع المظهر الداكن للموقع.
-  -->
   <div id="order-modal" class="order-modal hidden">
     <div class="order-modal-content">
       <h3>🚚 قريبا سيتم طرح المنتجات</h3>
